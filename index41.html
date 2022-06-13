@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HKRCMP1</title>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+    
+<body>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">      </a>
+  <div class="w3-container">
+<img src="https://nocodeplzz.github.io/pwatest/banner01_01s.jpg" style="width:100%">
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"> </a> 
+    <a href="#A" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">本會宗旨</a> 
+    <a href="#B" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">組織架構</a> 
+    <a href="#C" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">會長致詞</a> 
+    <a href="#D" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">成立背景</a> 
+    <a href="#E" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">本會責任</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+<b> <br> </b>
+<b> <br> </b>
+<b> <br> </b>
+<img src="https://nocodeplzz.github.io/pwatest/banner01_02s.jpg" style="width:100%">
+  <div class="w3-container" style="margin-top:80px" id="A">
+<b> <br> </b>
+<b> <br> </b>
+<b> <br> </b>
+    <h1 class="w3-xxxlarge w3-text-red"><b>本會宗旨</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+<p>香港註冊中醫學會致力團結全港註冊中醫及表列中醫為目標，同維護和促進特區政府所賦予本港中醫的專業地位及權利，為香港中醫專業的發展作出貢獻，並致力繼承和發揚傳統的中醫藥，促進香港及國際中醫藥學術交流。</p>
+  </div>
+  
+    
+  <!-- B -->
+  <div class="w3-container" id="B" style="margin-top:75px">
+<b> <br> </b>
+<b> <br> </b>
+<b> <br> </b>
+    <h1 class="w3-xxxlarge w3-text-red"><b>組織架構</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>香港註冊中醫學會的最高權力機構是會員大會，負責維護及修改會章，制定政策，推選執行委員會，委任法律顧問及核數顧問，審閱本會年報及監察內一切主要活動。</p>
+    <p>本會執行委員會負責執行政策及處理學會日常事務，在會員大會閉幕期間，代表大會行使最高權力，成立至今為第四屆，每屆任期兩年，由會員一人一票的民主產生。目前，第四屆執行委員會下設有多個部門，負責會內不同工作。本會設有常務委員會，負責監察會務工作，提出建議，支持及執行委員會的決議。</p>
+    <p>常務委員會由創會註冊人、退任正副會長、創會11個團體之當屆首長、本地中醫學院的會員代表組成。﹙見下圖﹚</p>
+<div class="w3-half">
+      <img src="https://nocodeplzz.github.io/pwatest/brief02.jpg" style="width:100%" onclick="onClick(this)" alt="組織架構">
+    </div>
+  </div>
+
+ <!-- C -->
+  <div class="w3-container" id="C" style="margin-top:75px">
+<b> <br> </b>
+<b> <br> </b>
+<b> <br> </b>
+    <h1 class="w3-xxxlarge w3-text-red"><b>會長致詞</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+<div class="w3-container">
+      <img src="https://nocodeplzz.github.io/pwatest/brief03.jpg" style="width:20%">
+    </div>
+    <p>歡迎大家瀏覽香港註冊中醫學會的網頁。</p>
+    <p>香港註冊中醫學會於2003 年成立，為全港最具代表性的中醫團體，有近六千名註冊中醫會員，致力團結全港註冊中醫及表列中醫為目標，共同維護和促進特區政府所賦予本港中醫的專業地位及權利，為香港中醫藥專業的發展作出貢獻，並致力繼承和發揚傳統的中醫藥，促進香港及國際中醫藥學術交流。</p>
+    <p>中醫藥有源遠流長的歷史，自香港開埠至今百多年以來，中醫業界從不間斷地、默默為社會大眾提供服務，對基層醫療的貢獻更是有目共睹的。香港擁有一支專業而強大的中醫藥團隊，是極富市場競爭力的。所以，在特首的號召下，我們很樂意配合發展具備優勢的私營醫療產業，為本港以至全球市場，提供優質的中醫藥服務。我們期待政府的重視，以傳統中醫藥“簡、便、驗、廉”的優勢，也希望中醫藥界從業員能像鳯凰一樣，把握住從火焰中重生的機會，為中醫業未來的發展創造有利條件，建立了中醫在社會上的認受性和專業地位。</p>
+    <p>2013年2月，香港特別行政區政府宣佈成立“香港中醫中藥發展委員會”，這標誌著中醫藥業發展的新里程。我們將積極關心和支持，就推動香港中醫中藥發展的方向及長遠策略向政府提出建議，盡快落實籌辦具香港特色的中醫醫院，開展香港中醫專科培訓，提升中醫師的專科水準，使中醫服務逐步向專科發展，從而滿足市民尋求中醫專科服務的需求，完善中醫服務，讓傳統中醫藥治療與西醫體系融合於公共衛生系統中，以達成民眾的願望。</p>
+    <p>作為本港最大的註冊中醫團體，代表近六千名執業中醫會員，我和新一屆的執委都整裝待發，作好準備，迎接面前的機遇和挑戰。我們會繼往開來，團結專業力量，努力爭取中醫藥界應得的資源和地位。同時，期望與政府當局有更多的溝通和互動，加強公私營醫療協作，為業界的發展作更完善的規劃；全力配合國家及社會對開拓中醫藥業的共同願望，與業界同道攜手開創更豐盛的未來。</p>
+    <p>本網站介紹本會的宗旨、組織架構、發展歷程、最新消息及本會活動。歡迎各位就網頁的內容提出任何建議或意見。</p>
+    <p align="right">香港註冊中醫學會</p>
+    <p align="right">會長：陳永光教授</p>
+    <p align="right">2013.11.17</p>
+  </div>
+
+ <!-- D -->
+  <div class="w3-container" id="D" style="margin-top:75px">
+<b> <br> </b>
+<b> <br> </b>
+<b> <br> </b>
+    <h1 class="w3-xxxlarge w3-text-red"><b>成立背景</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+<div class="w3-container">
+      <img src="https://nocodeplzz.github.io/pwatest/brief04.jpg" style="width:50%">
+    </div>
+    <p>香港特別行政區政府於1999年通過《中醫藥條例》，正式確立了香港回歸祖國後中醫藥的法定地位，這不但體現了社會對香港中醫界的認同，也標誌歷史賦予香港中醫界將要承接更大的社會責任，因此，進一步提升中醫界的凝聚力，提高中醫專業水平和服務質素，共同為維護和加強香港中醫的專業地位和權益，發展中醫藥事業是業界迫切的任務。於2003年，在中央人民政府駐香港特別行政區聯絡辦公室及香港特別行政區政府衛生署的支持下，香港註冊中醫學會由本港11個歷史較悠久的中醫團體發起創立，其包括</p>
+    <p>1.香港中華中醫學會</p>
+    <p>2.新華中醫中藥促進會</p>
+    <p>3.國際中醫中藥總會</p>
+    <p>4.中國醫藥筟會</p>
+    <p>5.香港中醫師公會</p>
+    <p>6.港九中醫師公會</p>
+    <p>7.僑港中醫師公會</p>
+    <p>8.香港中醫骨傷學會</p>
+    <p>9.香港針灸醫師學會</p>
+    <p>10.香港中醫學會</p>
+    <p>11.九龍中醫師公會</p>
+    <p>並由每個團體各選派兩位具備首批註冊中醫師資格的代表而成。</p>
+    <p>香港註冊中醫學會是香港註冊的非牟利有限公司，是香港回歸祖國後最具代表性及會員人數最多的中醫專業團體，特區選舉委員會中醫界別小組成員二十位都是香港註冊中醫學會會員，本會成立至今已有近伍仟名會員，佔全港註冊中醫人數的大多數。</p>
+    <p>香港註冊中醫學會是香港中醫藥管理委員會認可「註冊中醫進修中醫藥學」之行政機構及培訓機構之一，專誠為會員嚴格地提供認可的、多元化、全方位的專業進修及培訓課程。</p>
+    <p>香港註冊中醫學會是世界中醫藥學會聯合會（簡稱"世界中聯"）的團體會員。世界中聯是中華人民共和國國務院批准的國際性學術組織，致力於推動中醫藥的國際交流，傳播及發展，目前已有157個團體會員遍佈於五十個國家和地區。</p>
+  </div>
+
+
+ <!-- E -->
+  <div class="w3-container" id="E" style="margin-top:75px">
+<b> <br> </b>
+<b> <br> </b>
+<b> <br> </b>
+    <h1 class="w3-xxxlarge w3-text-red"><b>本會責任</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+<div class="w3-container">
+      <img src="https://nocodeplzz.github.io/pwatest/brief05.jpg" style="width:50%">
+    </div>
+    <p>香港回歸祖國後，中醫藥的發展面對新機遇及挑戰，香港註冊中醫學會將凝聚本地民間多個中醫團體精英力量，繼續群策群力，積極參與特區政府的醫療發展，為提高中醫藥的專業水平作出貢獻，為本地市民提供服務。</p>
+    <p>本會致力維護本地中醫專業聲譽及專業自主，提高會員的專業學術水平及良好的專業操守，團結業界，加強聯系，促進和發展中醫藥的研究</p>
+    <p>本會致力為會員服務，提供學術活動，培訓人才，拓展本地的中醫藥發展，如出版中醫藥刊物、提供電子傳媒資訊、籌辦中醫診所醫院、醫學圖書館、文化博物館等。</p>
+    <p>本會致力服務社群，為市民大眾提供服務，如慈善活動，義診和救災，同時聯繫本地醫療團體，促進合作，提本地的醫療水平。</p>
+  </div>
+ 
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
