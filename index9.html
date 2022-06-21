@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet"
+href="test1.css">
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+    
+<body>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">      </a>
+  <div class="w3-container">
+<img src="https://nocodeplzz.github.io/pwatest/banner01_01s.jpg" style="border-radius:50%"; width:50%>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">主頁</a> 
+    <a href="#A" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">近日活動</a> 
+    <a href="#B" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">學會簡介</a> 
+    <a href="#C" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">慈善基金</a> 
+    <a href="#D" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">會員專區</a> 
+    <a href="#E" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">聯絡我們</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+<b> <br> </b>
+<b> <br> </b>
+<b> <br> </b>
+<img 
+src="https://nocodeplzz.github.io/pwatest/banner01_02s.jpg" style="width:100%;border:10px outset grey;">
+  <div class="w3-container" style="margin-top:80px" id="A">
+
+<!-- <h1 class="w3-xxxlarge w3-text-red"><b>&#128077 近日活動</b></h1>-->
+<!-- <hr style="width:50px;border:5px solid red" class="w3-round">-->
+  </div>
+  
+<div class="w3-content" style="max-width:1200px">
+  <a href="https://topick.hket.com/article/3221015/%E3%80%90%E5%85%A7%E5%9C%B0%E5%B0%88%E5%AE%B6%E3%80%91%E5%85%A7%E5%9C%B0%E4%B8%AD%E9%86%AB%E5%B0%88%E5%AE%B6%E7%B5%84%E8%88%87%E6%9C%AC%E6%B8%AF%E4%B8%AD%E9%86%AB%E6%A5%AD%E7%95%8C%E4%BA%A4%E6%B5%81%E3%80%80%E5%86%8D%E8%A8%AA%E6%B5%B8%E5%A4%A7%E4%B8%AD%E9%86%AB%E6%8A%97%E7%96%AB%E9%81%A0%E7%A8%8B%E9%86%AB%E7%99%82%E4%B8%AD%E5%BF%83"><img class="mySlides" src="https://nocodeplzz.github.io/pwatest/s1ss.png" style="width:100%;display:none"></a>
+  <a href="https://topick.hket.com/article/3222387/%E3%80%90%E5%85%A7%E5%9C%B0%E6%94%AF%E6%8F%B4%E3%80%91%E5%85%A7%E5%9C%B0%E4%B8%AD%E9%86%AB%E5%B0%88%E5%AE%B6%E7%B5%84%E6%93%9A%E6%B8%AF%E7%96%AB%E6%83%85%E3%80%80%E6%93%AC%E5%AE%9A%E4%B8%AD%E9%86%AB%E8%97%A5%E6%87%89%E7%94%A8%E6%8C%87%E5%BC%95%E3%80%80"><img class="mySlides" src="https://nocodeplzz.github.io/pwatest/s2ss.png" style="width:100%"></a>
+  <a href="https://www.wenweipo.com/a/202108/30/AP612cd65de4b08d3407d751a8.html"><img class="mySlides" src="https://nocodeplzz.github.io/pwatest/s3ss.png" style="width:100%;display:none"></a>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://nocodeplzz.github.io/pwatest/s1ss.png" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://nocodeplzz.github.io/pwatest/s2ss.png" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="https://nocodeplzz.github.io/pwatest/s3ss.png" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+    
+  <!-- B -->
+  <div class="w3-container" id="B" style="margin-top:75px">
+<b> <br> </b>
+<b> <br> </b>
+<b> <br> </b>
+    <h1 class="w3-xxxlarge w3-text-red"><b>&#11088; 學會簡介</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+
+<iframe src="https://drive.google.com/file/d/1RS8SHoCW3BRxLR7IV2rHJvFy3KVXn8Rg/preview"></iframe>
+
+    <p>香港註冊中醫學會致力團結全港註冊中醫及表列中醫為目標，同維護和促進特區政府所賦予本港中醫的專業地位及權利，為香港中醫專業的發展作出貢獻，並致力繼承和發揚傳統的中醫藥，促進香港及國際中醫藥學術交流。</p>
+    <p><a href="https://drive.google.com/file/d/1RS8SHoCW3BRxLR7IV2rHJvFy3KVXn8Rg/view" target="_blank" rel="noopener noreferrer"><img src="https://nocodeplzz.github.io/pwatest/v1.png" style="width:50%"></a></p>
+
+  <!-- C -->
+  <div class="w3-container" id="C" style="margin-top:75px">
+<b> <br> </b>
+<b> <br> </b>
+<b> <br> </b>
+    <h1 class="w3-xxxlarge w3-text-red"><b>&#128150; 慈善基金</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+
+    <p>香港註冊中醫學會慈善基金會於2008年成立，隸屬於香港註冊中醫學會，是本地中醫團體內首個獲免稅的慈善團體，以弘揚祖國醫學為宗旨，以歧黃之術回饋社會為目標，造福社群。</p>
+    <p><a href="index42.html" target="_blank" rel="noopener noreferrer">詳情</a></p>
+  </div>
+
+  <!-- D -->
+  <div class="w3-container" id="D" style="margin-top:75px">
+<b> <br> </b>
+<b> <br> </b>
+<b> <br> </b>
+    <h1 class="w3-xxxlarge w3-text-red"><b>&#127968; 會員專區</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-white w3-center">
+        <li class="w3-pink w3-xlarge w3-padding-32">新聞</li>
+        <li class="w3-padding-16"><a href="http://www.hkrcmp.org/cht/doc/allnews//news/%E8%A8%BB%E5%86%8A%E4%B8%AD%E9%86%AB%E5%B8%AB%E6%8F%90%E4%BE%9B%E8%A6%96%E5%83%8F%E6%87%89%E8%A8%BA%E9%86%AB%E7%99%82%E6%9C%8D%E5%8B%99%E5%90%8D%E5%96%AE.pdf">﻿2022/03 註冊中醫師能提供視像應診醫療服務的名單</a></li>
+        <li class="w3-padding-16"><a href="http://www.hkrcmp.org/cht/doc/activity/hk/2021-12-04%20redirect.html">2021/12/04 第18屆世界中醫藥大會</a></li>
+        <li class="w3-padding-16"><a href="http://www.hkrcmp.org/cht/doc/allnews/news/%E6%94%AF%E6%8C%81%E7%AB%8B%E6%B3%95%E6%9C%83%E9%80%9A%E9%81%8E%E9%A6%99%E6%B8%AF%E5%AE%8C%E5%96%84%E9%81%B8%E8%88%89%E6%96%B9%E6%A1%88%E8%81%B2%E6%98%8E.pdf">2021/05/28 支持立法會通過香港完善選舉方案聲明</a></li>
+        <li class="w3-padding-16"><a href="http://www.hkrcmp.org/cht/doc/allnews/news/%E5%8F%96%E6%B6%882020-06-14%E8%AC%9B%E5%BA%A7%E9%80%9A%E7%9F%A5.pdf">2020/06/11 取消2020-06-14講座通知</a></li>
+        <li class="w3-padding-16"><a href="http://www.hkrcmp.org/cht/doc/allnews/news/2020-05-12%20%E8%87%B4%E5%85%A8%E6%B8%AF%E4%B8%AD%E9%86%AB%E5%B8%AB%E5%85%AC%E5%91%8A.pdf">2020/05/12 致全港中醫師公告</a></li>
+      </ul>
+    </div>
+        
+    <div class="w3-half">
+      <ul class="w3-ul w3-white w3-center">
+        <li class="w3-purple w3-xlarge w3-padding-32">會訊</li>
+        <li class="w3-padding-16"><a href="http://www.hkrcmp.org/cht/doc/allnews/issue/2022%E5%B9%B4%E7%AC%AC%E4%BA%8C%E5%AD%A3%E5%BA%A6%E6%9C%83%E8%A8%8A.pdf">﻿2022/04-07 會訊</a></li>
+        <li class="w3-padding-16"><a href="http://www.hkrcmp.org/cht/doc/allnews/issue/2022%E5%B9%B4%E7%AC%AC%E4%B8%80%E5%AD%A3%E5%BA%A6%E6%9C%83%E8%A8%8A.pdf">2022/01-03 會訊</a></li>
+        <li class="w3-padding-16"><a href="http://www.hkrcmp.org/cht/doc/allnews/issue/2021%E5%B9%B4%E7%AC%AC%E5%9B%9B%E5%AD%A3%E5%BA%A6%E6%9C%83%E8%A8%8A.pdf">2021/10-12 會訊</a></li>
+        <li class="w3-padding-16"><a href="http://www.hkrcmp.org/cht/doc/allnews/issue/2021%E5%B9%B4%E7%AC%AC%E4%BA%8C%E5%AD%A3%E5%BA%A6%E6%9C%83%E8%A8%8A.pdf">2021/07-10 會訊</a></li>
+        <li class="w3-padding-16"><a href="http://www.hkrcmp.org/cht/doc/allnews/issue/2021%E5%B9%B4%E7%AC%AC%E4%B8%80%E5%AD%A3%E5%BA%A6%E6%9C%83%E8%A8%8A.pdf">2021/04-07 會訊</a></li>
+      </ul>
+    </div>
+
+    <div class="w3-half">
+      <ul class="w3-ul w3-white w3-center">
+        <li class="w3-yellow w3-xlarge w3-padding-32">刊物</li>
+        <li class="w3-padding-16"><a href="http://www.hkjtcm.org/index.php">《香港中醫雜誌》 網站</a></li>
+      </ul>
+    </div>
+  </div>
+ 
+ <!-- Contact -->
+  <div class="w3-container" id="E" style="margin-top:75px">
+<b> <br> </b>
+<b> <br> </b>
+<b> <br> </b>
+    <h1 class="w3-xxxlarge w3-text-red"><b>&#128225; 聯絡我們</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>秘書處地址：香港北角英皇道367-373號上潤中心20樓C&D室</p>
+  <p>辦公時間：星期一至六 (上午10:00 - 1:30, 下午 2:30 - 6:00) 星期日及公眾假期 (休息)</p>
+<p>電話：(852) 3167 9829</p>
+<p>WhatsApp傳訊：5647 5145</p>
+<p>傳真：(852) 3167 6909</p>
+<p>電子郵箱：info@hkrcmp.org</p>
+<p>網址：www.hkrcmp.org</p>
+<p>前往學會的乘車方法 :
+地鐵 : 北角地鐵B1出口，新光戲院那面，華豐國貨往西步行3分鐘
+隧巴 : 乘隧道巴士102、106、112、116於 “糖水道站” 下車</p>
+  </div>
+
+  <div class="w3-container" id="F" style="margin-top:75px">
+    <p><a href="index43.html" target="_blank" rel="noopener noreferrer"><h1 class="w3-xxxlarge w3-text-red"><b>&#128269; 文件下載</b></h1></a></p>
+
+  </div>
+
+  <div class="w3-container" id="G" style="margin-top:75px">
+     <p><a href="index44.html" target="_blank" rel="noopener noreferrer"><h1 class="w3-xxxlarge w3-text-red"><b>&#128279; 網站連結</b></h1></a></p>
+
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
